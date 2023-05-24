@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<div id='container'>
+		<div id='title'>
+			<h1>
+				Student Registration Form
+			</h1>
+		</div>
+		<div id='info'>
+			<div id='ques'>
+				<h3>Name: </h3>
+				<h3>Sex: </h3>
+				<h3>Email: </h3>
+				<h3>Course: </h3>
+				<h3>Mobile Number: </h3>
+			</div>
+			<div id='ans'>
+				<input type='text' id='name'>
+				<div>
+					<input type="radio" id="male" name="gender" value="Male"><label for="male">Male</label><input
+						type="radio" id="female" name="gender" value="Female"><label for="female">Female</label>
+				</div>
+				<input type='text' id='email'>
+				<div>
+					<select name='course' id='course'>
+						<option value=''></option>
+						<option value='Computer Science'>Computer Science</option>
+						<option value='Computer Engineer'>Computer Engineer</option>
+						<option value='Civil Engineer'>Civil Engineer</option>
+						<option value='Information System'>Information System</option>
+						<option value='Information Technology'>Information Technology</option>
+					</select>
+				</div>
+				<input type='text' id='number'>
+			</div>
+		</div>
+		<div id='btn'>
+			<h1>
+				<button id='start-btn'>Submit</button>
+			</h1>
+		</div>
+	</div>
+	<script src='script.js'></script>
+</body>
+
+</html>
